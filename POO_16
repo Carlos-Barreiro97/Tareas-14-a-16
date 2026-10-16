@@ -1,0 +1,16 @@
+public class j16_Arreglos_1 {
+
+    public static void main(String[] args) {
+        int[] temperaturas = new int[3];
+
+        temperaturas[0] = 22;
+        temperaturas[1] = 26;
+        temperaturas[2] = 19;
+
+        temperaturas[0] = 24;
+
+        System.out.println("Tamaño del arreglo: " + temperaturas.length);
+        System.out.println("Temperatura en la posición 0: " + temperaturas[0]);
+        System.out.println("Temperatura en la posición 1: " + temperaturas[1]);
+    }
+}
