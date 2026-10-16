@@ -1,0 +1,22 @@
+public class j14_CicloForEach_esunForsimple {
+     public static void main(String[] args) {
+        String[] ciudades = {"Madrid", "Tokio", "París", "Londres", "Roma"};
+
+        System.out.println("Con For Each");
+        System.out.println("----------------------------");
+        for (String ciudad : ciudades) {
+            System.out.println("Visitar " + ciudad);
+        }
+
+        System.out.println("----------------------------");
+        System.out.println("Con For tradicional");
+
+        for (int i = 0; i < ciudades.length; i++) {
+            System.out.println("Visitar " + ciudades[i]);
+        }
+
+        System.out.println("----------------------------");
+        System.out.println("Fin del programa.");
+        System.out.println("----------------------------");
+    }
+}
