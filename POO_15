@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class j15_ArrayList_Objetos {
+    public static void main(String[] args) {
+        ArrayList<String> paises = new ArrayList<>();
+
+        paises.add("México");
+        paises.add("España");
+
+        String miPais = paises.get(0);
+
+        paises.remove("España");
+
+        System.out.println("Total de objetos guardados: " + paises.size());
+    }
+}
